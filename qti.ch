@@ -55,7 +55,6 @@ void setup(){
   for(int i = 0; i < 260; i++){
     lineTracking();
   }
-  /*
 
   //back up to avoid wall --do not change
   servoL.writeMicroseconds(1300);
@@ -121,7 +120,6 @@ void setup(){
   servoL.writeMicroseconds(1700);
   servoR.writeMicroseconds(1300);
   delay(57 00);
-  */
 
   //end
   servoL.detach();
